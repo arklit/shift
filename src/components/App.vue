@@ -34,6 +34,7 @@ import {defineComponent} from "vue";
  body {
    background: #F0F0F0;
    font-family: "Suisse Intl", sans-serif;
+   -webkit-text-stroke: 2.5px black;
  }
  .App {
    position: relative;
