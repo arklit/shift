@@ -2,17 +2,15 @@
   <div class="App">
     <Links/>
     <Article/>
-    <Shift/>
   </div>
 </template>
 <script>
 import Links from './Links';
-import Shift  from './Shift';
 import Article from './Article'
 import {defineComponent} from "vue";
  export default defineComponent({
    name: "App",
-   components: { Links, Article, Shift },
+   components: { Links, Article },
    data() {
      return {
 
@@ -37,6 +35,9 @@ import {defineComponent} from "vue";
    -webkit-text-stroke: 2.5px black;
  }
  .App {
+   display: flex;
+   flex-direction: row;
    position: relative;
+   gap: 16px;
  }
 </style>
