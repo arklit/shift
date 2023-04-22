@@ -14,18 +14,16 @@ export default {
   name: "Shift",
   data() {
     return {
-
     }
   },
 }
 </script>
 <style lang="scss">
 .shift {
-  position: absolute;
-  left: 48px;
-  bottom: 48px;
+  bottom: 32px;
   padding: 16px;
-  width: 50%;
+  width: 45.8%;
+  box-sizing: border-box;
   display: flex;
   justify-content: space-between;
   box-shadow: 0px 4px 16px rgba(255, 255, 255, 0.32);
