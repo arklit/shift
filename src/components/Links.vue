@@ -40,15 +40,15 @@ import Shift from './Shift';
     transition: all .4s ease-out;
     color: #DADADA;
     cursor: pointer;
-    -webkit-text-stroke: 2.5px #d9d9d9;
+    -webkit-text-stroke: 1.5px #d9d9d9;
     &:hover {
-      -webkit-text-stroke: 2.5px black;
+      -webkit-text-stroke: 1.5px black;
       color: black;
     }
   }
   .link.active {
     padding-left: 113px;
-    -webkit-text-stroke: 2.5px black;
+    -webkit-text-stroke: 1.5px black;
     color: black;
   }
 }
