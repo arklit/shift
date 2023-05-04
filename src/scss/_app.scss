@@ -1,0 +1,20 @@
+:root {
+  --black-color: #000000;
+  --grey-color: #dadada;
+}
+
+body {
+  text-transform: lowercase;
+  font-weight: 600;
+  letter-spacing: normal;
+}
+
+.main_wrapper {
+  height: inherit;
+  display: flex;
+  justify-content: space-around;
+}
+
+.default_font20px {
+  font-size: 20px;
+}
